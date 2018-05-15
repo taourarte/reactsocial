@@ -38,7 +38,7 @@ fbContent=(
 )
       }else{
        fbContent=( <FacebookLogin
-        appId="2050206261864097"
+        appId=your ID here from https://developers.facebook.com/apps
         autoLoad={true}
         fields="name,email,picture"
         onClick={this.componentClicked}
